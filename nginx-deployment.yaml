@@ -5,7 +5,7 @@ metadata:
   labels:
     app: nginx
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: nginx
@@ -31,4 +31,4 @@ spec:
     - protocol: TCP
       port: 8011
       targetPort: 8011
-  type: ClusterIP
+  type: loadbelence
