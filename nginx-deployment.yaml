@@ -31,4 +31,4 @@ spec:
     - protocol: TCP
       port: 8011
       targetPort: 8011
-  type: loadbelence
+  type: LoadBalancer
